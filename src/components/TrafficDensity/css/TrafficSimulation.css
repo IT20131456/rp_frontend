@@ -1,0 +1,101 @@
+/* TrafficDashboard styling */
+.traffic-dashboard {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+table {
+  border: 2px solid black;
+  border-radius: 50%;
+  border-collapse: collapse;
+  width: 100%;
+}
+  
+.box-size{
+  width: 80px;
+  height: 80px;
+  
+}
+
+.lane-box-size{
+  width: 80px;
+  height: 60px;
+  border: 1px solid #464646;
+  color: #f5fff5;
+}
+
+tr{
+  align-items: center;
+  text-align: center;
+}
+
+.raod-lane {
+  background-color: #464646;
+}
+
+.grass {
+  background-color: #f5fff5;
+}
+
+.digit-font {
+  font-family: "YourFontName", sans-serif;
+}
+
+.center-line{
+  width: 80px;
+  height: 5px;
+  border: 1px solid #ebe9e9;
+}
+
+.top-border{
+  border-top: 2px solid #ebe9e9;
+}
+
+.bottom-border{
+  border-bottom: 2px solid #ebe9e9;
+}
+
+.left-border{
+  border-left: 2px solid #ebe9e9;
+}
+
+.right-border{
+  border-right: 2px solid #ebe9e9;
+}
+
+.lane-text{
+  font-size: 16px;
+  font-weight: bold;
+  color: #464646;
+}
+  
+.far-area-count-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.near-area-count-text{
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.far-area-border{
+  background-color: #f89e5d !important;
+}
+
+.near-area-border{
+  background-color: #ff6363 !important;
+}
+
+.counter-time-text{
+  font-size: 25px;
+  font-weight: bold;
+  color: #000000;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #ffffff;
+}

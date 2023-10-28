@@ -1,0 +1,23 @@
+/* Define styles for different counter times */
+.counter-time {
+    padding: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Define styles for specific counter time values */
+  .counter-time-60 {
+    background-color: red;
+    color: white;
+  }
+  
+  .counter-time-40 {
+    background-color: yellow;
+  }
+  
+  .counter-time-20 {
+    background-color: green;
+    color: white;
+  }
+

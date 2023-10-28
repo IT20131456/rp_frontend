@@ -1,0 +1,84 @@
+/* Road Junction Container */
+.road-junction {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    border: 3px solid #000;
+    background-color: #f5f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+
+
+  
+
+  
+  /* Roads */
+  .road {
+    position: absolute;
+    background-color: #888;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .vertical-road {
+    height: 100%;
+    width: 30px;
+  }
+  
+  .horizontal-road {
+    height: 30px;
+    width: 100%;
+  }
+  
+  /* Traffic Lights */
+  .traffic-light {
+    position: absolute;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .north-light {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .south-light {
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .east-light {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .west-light {
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  /* Traffic Light Colors */
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  /* Button */
+  button {
+    margin-top: 20px;
+  }
+  

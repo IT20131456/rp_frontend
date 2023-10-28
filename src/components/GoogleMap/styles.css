@@ -1,0 +1,15 @@
+@keyframes traffic-light {
+    0% {
+      border-color: transparent;
+    }
+    33.33% {
+      border-color: red;
+    }
+    66.66% {
+      border-color: yellow;
+    }
+    100% {
+      border-color: green;
+    }
+  }
+  

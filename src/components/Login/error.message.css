@@ -1,0 +1,7 @@
+/* Add a new CSS class for the error message */
+.error_msg {
+    color: red;
+    font-size: 14px;
+    align-self: self-start;
+    margin-left: 10px;
+  }

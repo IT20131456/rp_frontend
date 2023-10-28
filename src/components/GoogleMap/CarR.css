@@ -1,0 +1,36 @@
+/* Car.css */
+.car {
+    width: 30px; /* Adjust the width and height as needed */
+    height: 30px;
+    background-color: #f00; /* Red background to represent the car */
+    position: absolute;
+    left: -0px; /* Initial position outside the viewport on the left */
+    top: 50%; /* Adjust the top position as needed */
+    transform: translateY(-50%);
+    animation: moveCar 8s linear forwards; /* 5s duration for the animation */
+  }
+  
+  @keyframes moveCar {
+    to {
+      left: calc(100% - 50px); /* Position the car at the center of the junction */
+    }
+  }
+
+
+
+
+
+    /* Animation keyframes */
+    @keyframes moveCarRightToLeft {
+        from {
+          left: 90%; /* Starting from the right edge */
+        }
+        to {
+          left: -0px; /* Ending outside the left edge */
+        }
+      }
+
+
+
+  
+  
